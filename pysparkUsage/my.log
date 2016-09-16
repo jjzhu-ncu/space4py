@@ -1,0 +1,8 @@
+2016-07-04 10:23:24 log_test.py[line:52] DEBUG this is a debug message
+2016-07-04 10:23:24 log_test.py[line:53] INFO this is an info message
+2016-07-04 10:23:24 log_test.py[line:54] WARNING this is a warning message
+2016-07-04 10:23:24 log_test.py[line:60] ERROR Traceback (most recent call last):
+  File "F:/workspace/space4py/workspace/PySparkUsage/log_test.py", line 56, in screen_and_file
+    10/0  # this code will raise ZeroDivisionError exception
+ZeroDivisionError: division by zero
+
