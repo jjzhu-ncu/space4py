@@ -2,10 +2,6 @@ __author__ = 'jjzhu'
 
 
 def fun1():
-    """
-    tokenize标准程序库使用
-    :return:
-    """
     import tokenize
     reader = open('./iterator.py').__next__()
     tokens = tokenize.generate_tokens(reader)
